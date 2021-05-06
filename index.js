@@ -13,5 +13,5 @@ server.get('/api/*', (req,res) => {
 })
 
 server.listen(PORT, () => {
-    console.log(`listening on ${PORT}`);
+    console.log(`listening on ${PORT}!`);
 })
